@@ -1,0 +1,46 @@
+* Variables
+--------------------------------------------------------------------------------
+Al declarar una variable, guardara los datos ingresados en un espacio de memoria.
+Estos datos pueden ser: str, num, booleanos, arrays, etc.
+Su nomenclatura es la siguiente:
+var {nombre de variable} = datos
+
+* Strings
+--------------------------------------------------------------------------------
+Tipo de dato declarado entre ' ' o " ". Se utiliza para declarar una cadena de 
+caracteres.
+Ejemplo:
+'Hello World' o "Hello World"
+
+* Funciones (argumentos, `return`)
+--------------------------------------------------------------------------------
+Se encarga de englobar un conjunto de instrucciones, las cuales realizaran una 
+tarea especifica. 
+Para invocarlas se utilizará el nombre de la funcion seguido por () y dentro,
+si es que los necesita, se pasaran los argumentos.
+Utilizando la palabra reservada function, existen 3 maneras de declarala:
+
+function {nombre de la funcion} (argumentos de la funcion) {
+    instrucciones de la funcion
+    return
+}
+
+var saludo = function (argumentos de la funcion) {
+    instrucciones de la funcion
+    return
+}
+
+var saludo = (argumentos de la funcion) => { instrucciones de la funcion }
+
+* Declaraciones `if`
+--------------------------------------------------------------------------------
+Se utiliza para evaluar una condición, y ejecutar una parte de código si esa condición
+se cumple o no. 
+
+if (condicion a evaluar, seguida por la comparacion) {
+    -- hara esto --
+} 
+
+* Valores booleanos (`true`, `false`)
+--------------------------------------------------------------------------------
+Representan los valores de lógica binaria, es decir 1 y 0.
