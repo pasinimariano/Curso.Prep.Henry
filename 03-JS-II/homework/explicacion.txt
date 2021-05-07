@@ -1,0 +1,30 @@
+* `for`
+--------------------------------------------------------------------------------
+Un ciclo for se repetirá la cantidad de veces que sea necesarias, hasta que la condición 
+especificada se evalúe como false.
+Su sintaxis es la siguiente:
+
+for ([expresiónInicial]; [expresiónCondicional]; [expresiónActualización]) {
+    instrucción 
+}
+
+
+* `&&`, `||`, `!`
+--------------------------------------------------------------------------------
+Son 3 operadores lógicos. Se utilizan para ralizar, como su nombre lo indica, operaciones
+lógicas, es decir aquellas que dan como resultado true o false. 
+
+&& --> and --> al evaluar dos o más expresiones ambas tienen que ser true, si una es false
+devolverá false.
+(5 < 10 && 5 > 1) true
+(5 < 10 && 5 < 1) false
+
+|| --> or --> al evaluar dos o más expresiones una u otra tiene que ser true, si ambas son 
+false devolverá false.
+(5 === 10 || 5 === 5) true
+(5 === 10 || 5 === 1) false 
+
+
+! --> not --> negacion. Devuelve el valor contrario al valor de la variable.
+var verdad = true       true
+console.log(!verdad)    false
