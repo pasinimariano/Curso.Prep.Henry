@@ -1,0 +1,18 @@
+* Arrays
+--------------------------------------------------------------------------------
+
+Un array es una colección de datos. Estos datos no necesariamente deben ser del mismo
+type. 
+Para crear un nuevo array:
+
+var nombreArray = []  //Array vacio
+
+var nombreArray = [1,2,3,4]  //Array de numeros
+
+var nombreArray = [1,2,'Pepe', true] //Array con varios tipos de datos
+
+
+Se puede ingresar a cualquiera de los datos dentro de la lista utilizando el índice:
+nombreArray[0] //ingresara al elemento en la posición 1
+nombreArray[4] //ingresara al elemento en la posición 5
+
