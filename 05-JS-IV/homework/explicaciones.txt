@@ -1,0 +1,61 @@
+* Objetos
+--------------------------------------------------------------------------------
+Un objeto es una colección desordenada de datos. Se basa en la estructura de key:value.
+Cada key dentro del objeto debe ser única, no así el value que se puede repetir.
+Dentro del value se puede encontrar, un string, un number, un array, inclusive otro
+objeto.
+
+Su sintaxis es:
+var objeto = {key : value, key1 : value2}
+
+Para ingresar al value de algún key:
+objeto['key']  // notación de corchetes
+objeto.key     // notación de punto
+
+
+* Propiedades
+--------------------------------------------------------------------------------
+Una propiedad de un objeto se puede explicar como una variable adjunta al objeto.
+Estas propiedades definen las características  del objeto.
+Es decir que una propiedad es lo que se conoce como key.
+
+objeto['propiedad']  // notación de corchetes
+objeto.propiedad     // notación de punto
+
+
+* Métodos
+--------------------------------------------------------------------------------
+El método es una función como cualquier otra en JS, con la diferencia que la 
+función esta declarada en cualquier parte del código, en cambio el método está
+definido dentro un objeto.
+
+Ejemplo:
+funcion función() {}
+
+var objeto = {'metodo' : function () {}}
+
+
+* Bucle `for…in`
+--------------------------------------------------------------------------------
+Difiere solo un poco del bucle for. Este bucle for ... in está pensado para iterar
+un objeto.
+
+for (let key in objeto) {
+    instruccion
+}
+
+Este bucle recorrerá cada key del objeto y finalizará habiendo iterado todas las keys.
+Se puede utilizar notación de punto, o de corchete para ingresar solo al value asociado
+a esa key.
+
+
+* Notación de puntos vs notación de corchetes
+--------------------------------------------------------------------------------
+Se utilizan para acceder a los values. Para ello se debe llamar al objeto y al 
+nombre de la key.
+
+notacion de puntos:
+objeto.key;
+
+notacion de corchetes:
+objeto['key'];
