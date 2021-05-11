@@ -1,0 +1,12 @@
+* `prototype`
+--------------------------------------------------------------------------------
+JS se basa en una estructura de objects. (todo o en su mayoria es un objeto)
+Todo objeto dentro de JS tiene otro objeto, llamado prototype.
+Es decir que prototype es una propiedad de Object. Gracias a este mecanismo
+los objetos podran heredar características entre sí.
+
+
+* _Constructors_ (de Clases)
+--------------------------------------------------------------------------------
+Es un método especial para crear e inicializar un objeto creado con una clase.
+Solo puede existir un solo método "constructor" en la clase.
