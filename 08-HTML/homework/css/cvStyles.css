@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #b4a5a5;
+    height: 100%;
+}
+
+.divContainer {
+    display: flex;
+    height: 100%;
+    margin : 45px;  
+}
+
+.divLeft {
+    background-color: #151515;
+    color: #b4a5a5;
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+}
+
+#divData{
+    margin-left: 10px;
+}
+
+.divLeft h1{
+    text-align: center;
+    color: #b4a5a5;
+    background-color: #3c415c;
+    margin-bottom: 5px;
+}
+
+.divLeft div{
+    margin-bottom: 5px;
+    height: 5px;
+    background-color: #301b3f;
+}
+
+.divLeft img{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divRight {
+    background-color: #3c415c;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+#h2Obj{
+    color: #151515;
+    margin-left: 40px;
+    margin-bottom: 5px;
+}
+
+#divSep{
+    height: 5px;
+    width: 75%;
+    background-color: #301b3f;
+}
+
+#divSep2{
+    height: 5px;
+    width: 45%;
+    background-color: #301b3f;
+}
+
+.divRight p {
+    color: #151515;
+    font-size: 18px;
+    text-align: justify;
+    margin: 15px 40px 25px 40px;
+}
+
+.listContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #151515;
+}
+
+.divSkills {
+    color: #151515;
+    margin-bottom: 25px;
+}
+
+.divSkills h2{
+    margin: 0px 0px 5px 40px;  
+}
+
+#rowsSkills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#rowsSkills progress{
+    border: none;
+}
+
+::-webkit-progress-bar {
+    background-color: #151515;
+}
+
+progress::-webkit-progress-value {
+background: #b4a5a5;
+}
+
+progress::-moz-progress-bar {
+    background: #b4a5a5;
+}
